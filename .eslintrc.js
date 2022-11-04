@@ -1,3 +1,4 @@
+// @ts-check
 const { defineConfig } = require('eslint-define-config')
 module.exports = defineConfig({
   parser: 'vue-eslint-parser', // https://stackoverflow.com/questions/66597732/eslint-vue-3-parsing-error-expected-eslint

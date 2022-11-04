@@ -20,6 +20,7 @@
     "cz-conventional-changelog": "3.3.0",
     "eslint": "^8.25.0",
     "eslint-config-prettier": "^8.5.0",
+    "eslint-define-config": "^1.11.0",
     "eslint-plugin-prettier": "^4.2.1",
     "lint-staged": "^13.0.3",
     "prettier": "2.7.1",
@@ -29,8 +30,7 @@
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx,vue}": [
-      "eslint",
-      "prettier --write --ignore-UNKONWN"
+      "eslint"
     ],
     "*.{html,css,less,scss,md}": [
       "prettier --write --ignore-UNKONWN"
